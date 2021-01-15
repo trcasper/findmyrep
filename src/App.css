@@ -2,3 +2,29 @@
   height: 100vh;
   background-color: rgb(84, 133, 133);
 }
+
+.Header {
+  height: 18vh;
+  background-color: white;
+  display: flex;
+  align-items: center
+  ;
+}
+
+.Title {
+  font-size: 30px;
+  font-weight:bold;
+  color: #249dee;
+  /* color: #5DAFF1; */
+}
+
+.Button-container {
+  height: 5vh;
+  background-color: rgb(16, 65, 16);
+
+}
+
+.Submit-button {
+  height: 4vh;
+  width: 8vh;
+}
