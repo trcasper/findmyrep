@@ -8,13 +8,27 @@ function App() {
         <div className='Title'>Who's My Representative?</div>
       </div>
       <div className='Selector-container'>
-        <button className='Select-rep'>Rep/Sen</button>
-
-
-      </div>
-      <div className='Button-container'>
+        <div className='Select-container-rep'>
+        <button className='Select-rep-btn'>Select One</button>
+        </div>
+        <div className='Select-container-state'>
+        <button className='Select-state-btn'>Select State</button>
+        </div>
         <button className='Submit-button'>SUBMIT</button>
       </div>
+      <div className='List-container'>
+        <div className='List-title-container'>
+        <div className='List-title'>List /</div>
+        <div className='Info-title'>Info</div>
+        </div>
+      <div className='Listings-container'>
+        <div className='Listings-title'>Name
+        </div>
+      </div>
+      </div>
+
+     
+      
       </div>
     </div>
   );

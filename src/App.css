@@ -1,5 +1,7 @@
 .App {
-  background-color: rgb(84, 133, 133);
+  /* background-color: rgb(84, 133, 133); */
+  background-color: white;
+
 }
 
 .App-container {
@@ -23,48 +25,78 @@
 }
 
 .Selector-container {
-  height: 10vh;
-  background-color:rgb(105, 105, 105);
+  height: 8vh;
+  /* background-color:rgb(105, 105, 105); */
+  background-color: white;
+  display: flex;
+  align-items: center;
 }
 
-.dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
+.Select-container-rep {
+  /* background-color: green; */
+  background-color: white;
+  width: 30vh;
+}
+
+.Select-rep-btn {
+  height: 30px;
+  width: 100px;
+  margin-left: 1vh;
+
+  border-radius: 10%;
+  background-image: linear-gradient(
+    99deg,
+    rgb(166, 203, 219),
+    rgb(114, 158, 187) 40%,
+    rgb(80, 144, 170)
+  );
+  color: rgb(255, 255, 255);
   border: none;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
   text-decoration: none;
-  display: block;
+  color: white;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.25), 0 2px 2px 0 rgba(0, 0, 0, 0.26);
 }
 
-.Content-one {
+.Select-rep-btn:hover {
+  background: rgb(124, 160, 184);
   color: black;
+  transition: 0.3s;
+  box-shadow : 0 14px 28px 0 rgba(0, 0, 0, 0.25), 0 5px 5px 0 rgba(0, 0, 0, 0.26);
 }
 
-.Button-container {
-  height: 6vh;
-  background-color: rgb(163, 163, 163);
-
+.Select-container-state {
+  /* background-color: purple; */
+  background-color: white;
+  width: 30vh;
 }
+
+.Select-state-btn {
+  height: 30px;
+  width: 100px;
+  margin-left: 1vh;
+
+  border-radius: 10%;
+  background-image: linear-gradient(
+    99deg,
+    rgb(166, 203, 219),
+    rgb(114, 158, 187) 40%,
+    rgb(80, 144, 170)
+  );
+  color: rgb(255, 255, 255);
+  border: none;
+  text-decoration: none;
+  color: white;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.25), 0 2px 2px 0 rgba(0, 0, 0, 0.26);
+}
+
+.Select-state-btn:hover {
+  background: rgb(124, 160, 184);
+  color: black;
+  transition: 0.3s;
+  box-shadow : 0 14px 28px 0 rgba(0, 0, 0, 0.25), 0 5px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+
 
 .Submit-button {
   height: 45px;
@@ -83,7 +115,6 @@
   text-decoration: none;
   color: white;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.25), 0 2px 2px 0 rgba(0, 0, 0, 0.26);
-  margin-bottom: 8vh;
 }
 
 .Submit-button:hover {
@@ -91,4 +122,46 @@
   color: black;
   transition: 0.3s;
   box-shadow : 0 14px 28px 0 rgba(0, 0, 0, 0.25), 0 5px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+.List-container {
+  height: 60vh;
+  background-color: white;
+}
+
+.List-title-container {
+  height: 8vh; 
+  /* background-color: aqua; */
+  background-color: white;
+
+  display: flex;
+  align-items: center;
+  margin-left: 5vh;
+}
+
+.List-title {
+  width: 60vh;
+  font-size: 25px;
+  font-weight:500;
+}
+
+.Info-title {
+  font-size: 25px;
+  font-weight:500;
+}
+
+.Listings-container {
+  /* background-color: bisque; */
+  background-color: white;
+
+  
+}
+
+.Listings-title {
+  height: 5vh;
+  width: 50vh;
+  margin-left: 10vh;
+  background-color: rgb(218, 218, 218);
+  display: flex;
+  align-items: center;
 }
